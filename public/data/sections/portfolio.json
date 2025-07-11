@@ -1,0 +1,183 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"}
+                    }
+                }
+            ],
+
+            "items": [
+               
+
+               
+
+               
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/medication_reminder.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/sandhya-rani-pulkanti/interactive_medication_reminder"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Mediaction Reminder",
+                            "text": "This project is an Interactive Medication Reminder Application designed to help users manage their medications effectively. It features a user-friendly interface that allows users to input medication details, receive timely reminders, track their intake, and access relevant health information through a built-in medical chatbot, promoting better health management.",
+                            "tags": ["JS", "API", "Chatbot"]
+                        }
+                    }
+                },
+
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/easeup.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/sandhya-rani-pulkanti/EaseUp"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://youtu.be/28wrc4k3UVg?si=QURaWOKiET-qr8JU",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "EaseUp",
+                            "text": "MindMate is a student-focused mental health support web application designed to help users manage stress, track emotions, and build healthy habits through interactive tools. It features an AI-powered mental health chatbot built with Python, Flask, and NLP, along with a mood tracker, to-do list, customizable Pomodoro timer, wellness exercises, and calming games like Catch the Calm and Affirmation Garden. Built using HTML, CSS, and JavaScript, MindMate aims to provide a supportive, stigma-free space that promotes emotional well-being and academic resilience.",
+                            "tags": ["Python", "JS", "CSS", "HTML"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/aqi_prediction.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "null", "fill": "null"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/sandhya-rani-pulkanti/AQI-Prediction"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "AQI Prediction",
+                            "text": "Developed a web application that predicts air quality levels using a machine learning model trained on environmental data such as PM2.5, PM10, NO₂, CO, SO₂, and O₃. Integrated real-time AQI data from free APIs and implemented health advisory logic based on pollution severity. Built with Python, Flask, and scikit-learn, the app provides users with both AQI predictions and personalized health recommendations.",
+
+                            "tags": ["Python", "Flask", "Scikit-learn"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/memory_box.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "null", "fill": "null"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/sandhya-rani-pulkanti/memory-box"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Memory Box",
+                            "text": "This project is a patient management web application built with Flask and integrated with Firebase Firestore for data storage. It allows users to add, view, edit, and delete patient records, including detailed information such as personal details, medical history, contact information, location data, and prescriptions. The application features dedicated interfaces for managing patient contacts, locations, and prescriptions, supporting CRUD operations for each. With a user-friendly web interface and robust backend, it streamlines the process of maintaining comprehensive patient records for healthcare or personal use.",
+                            "tags": ["Python", "HTML", "CSS"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/mental_health_bot.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "null", "fill": "null"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/sandhya-rani-pulkanti/Mental_health_bot"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Mental Health Bot",
+                            "text": "The Mental Health Bot is an AI-powered chatbot built with Python, Flask, and NLP libraries like TextBlob and NLTK. It analyzes the user's mood through text input and responds with personalized support — including affirmations, coping tips, and curated articles based on how the user is feeling, offering a safe and supportive space for students to navigate their emotions",
+                            "tags": ["Python", "Flask"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

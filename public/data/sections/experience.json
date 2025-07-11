@@ -1,0 +1,80 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/swecha.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/05/2025",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**AI Developer** Intern",
+                            "info": "Swecha",
+                            "text": "<p>Developing India's first Telugu LLM by fusing AI engineering with cultural preservation :</p> <ul><li>Built Telugu ASR pipelines</li><li>LLM Fine-Tuning</li><li>Led field interviews to collect speech data</li>",
+                            "tags": ["AI", "LLM", "AsR"]
+                        }
+                        
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/forage.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2025",
+                        "end": "03/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Front-End** Software Engineering",
+                            "info": "Skyscanner",
+                            "text": "<p>ompleted Skyscanner's Front-End Software Engineering on Forage. In the simulation I:</p> <ul><li>Completed a job simulation where I built a web application using React as a front-end engineer at Skyscanner.</li><li>Developed a page for picking a travel date using Skyscanner’s open-source Backpack React library.</li><li>Customised my application and ran automated tests to ensure it rendered properly.</li>",
+                            "tags": [ "React", "Backpack"]
+                        }
+                    }
+                },
+               
+                {
+                    "icon": {
+                        "img": "images/pictures/csrbox.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/01/2024",
+                        "end": "12/30/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Prompt** Engineering",
+                            "info": "CSRBOX",
+                            "text": "<p>Winter Certification Program on Prompt Engineering with CSRBOX:</p> <ul><li>Completed Prompt Engineering Winter Program with CSRBOX</li><li>Gained hands-on experience in prompt crafting</li><li>Explored real-world AI prompt applications</li><li>Strengthened skills in AI-assissted communication</li>",
+                            "tags": ["Prompt Engineering"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

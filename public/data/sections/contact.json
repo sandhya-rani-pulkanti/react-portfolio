@@ -1,0 +1,125 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."}
+            },
+
+            "items": [
+                {
+                    "value": "+91 XXXXXXXXXX",
+                    "links": [
+                        {"href": "tel:11234567890"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"}
+                    }
+                },
+
+                {
+                    "value": "sandhyaranipulkanti@gmail.com",
+                    "links": [
+                        {"href": "mailto:sandhyaranipulkanti@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                    }
+                },
+
+                {
+                    "value": "Sandhya Rani",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/sandhya-rani-pulkanti-4a39262a6"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "Sandhya Rani",
+                    "links": [
+                        {"href": "https://x.com/sandhya3792?t=h7iaPxc1oOmYzKJenVHbLg&s=09"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-square-x-twitter",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "X"}
+                    }
+                },
+
+                {
+                    "value": "Sandhya Rani",
+                    "links": [
+                        {"href": "https://www.instagram.com/awesome_blossom111?igsh=MTd4a2M3YXYyMmZ0eA=="}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                },
+
+                {
+                    "value": "Sandhya Rani",
+                    "links": [
+                        {"href": "t.me/sandhyaranipulkanti"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-telegram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Telegram"}
+                    }
+                }
+            ]
+        }
+    ]
+}

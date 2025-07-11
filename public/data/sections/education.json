@@ -1,0 +1,85 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/07/2019",
+                        "end": "12/08/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Intermediate**",
+                            "info": "Sri Chaitanya Junior Kalashala",
+                            "text": "<p>Completed Intermediate education with a focus on the MPC stream (Mathematics, Physics, and Chemistry), covering essential analytical and scientific foundations such as:</p> <ul><li>Calculus and Algebra</li><li>Mechanics and Electromagnetism</li><li>Chemical Reactions and Thermodynamics</li></ul> <p class='mt-3'>Built a strong problem-solving mindset and quantitative reasoning skills, forming the backbone for a successful transition into Computer Science.</p>"
+,
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/01/2009",
+                        "end": "03/05/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Secondary School** Certificate (SSC)",
+                            "info": "S.V.R Educational Academy",
+"text": "Completed Secondary School Certificate (SSC) with a strong academic foundation in core subjects such as Mathematics, Science, and English. Developed discipline, communication skills, and a curiosity-driven approach to learning that laid the groundwork for higher education."
+
+                            
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-6.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/11/2021",
+                        "end": "06/08/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** of Technology",
+                            "info": "CSI Wesley Institute of Technology and Sciences",
+                            "text": "<p>Pursuing a Bachelor's degree in Computer Science with a solid academic foundation in core computing concepts, including:</p> <ul><li>Data Structures and Algorithms</li><li>Operating Systems</li><li>Database Management Systems</li><li>Computer Networks</li></ul> <p class='mt-3'>Blending theoretical knowledge with hands-on projects and internships to build real-world software solutions and develop a future-ready skillset.</p>",
+
+                            "tags": ["SoftWare Engineering", "OOPs", "DBMS"]
+                        }
+                    }
+                }
+
+               
+            ]
+        }
+    ]
+}

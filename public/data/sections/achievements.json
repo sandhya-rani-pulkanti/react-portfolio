@@ -1,0 +1,130 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img":"images/pictures/free-code-camp.svg",
+                        "fa": "",
+                        "faColors": {"bg": "#fff", "fill": ""}
+                    },
+                    "dates": {
+                        "start": "12/01/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.freecodecamp.org/certification/Sandhyaranipulkanti/responsive-web-design" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": " **freeCodeCamp**",
+                            "text": "Responsive Web Design"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/ybi.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "dates": {
+                        "start": "02/05/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "images/pictures/ybi_foundation.jpg" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Data Science** and Machine Learning",
+                            "text": "Completed Data Science and Machine Learning Internship"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/js.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "dates": {
+                        "start": "02/05/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "images/pictures/javascript.jpg" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**sololearn**",
+                            "text": "Introduction to javaScript"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Others" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "04/01/2025",
+                        "end": null
+                    },
+                    "links": [
+                         { "string": "more_info", "href": "https://devpost.com/software/easeup-student-mental-health-support-application" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Hackathon** participation",
+                            "info": "Tech Titans Hack Fest",
+                            "text": "Built EaseUp, a student mental health web app with NLP chatbot, mood tracker, and wellness tools using Flask and JavaScript."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "07/01/2025",
+                        "end": null
+                    },
+                    "links": [
+                         
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Wattpad** stories",
+                            "info": "Wattpad",
+                            "text": "Got 33K plus reads for one of my story on Wattpad"
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

@@ -1,0 +1,308 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Website** design",
+                            "text": "I can bring your best ideas into life!"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** management",
+                            "text": "I can handle your data effectively!"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Prompt** Engineering",
+                            "text": "I can handle your data effectively!"
+                        }
+                    }
+                }
+            ]
+
+        },
+
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Backend"}
+            },
+
+            "items": [
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {"bg": "#306998", "fill": "#EEE"}
+                    },
+                    "value": "intermediate",
+                    "level": "intermediate",
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "info": null
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": "Beginner",
+                    "level": "Beginner",
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                },
+             
+                {
+                    "icon": {
+                        "img":"images/pictures/cpp.jpg" ,
+                        "fa": "",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "value": "Beginner",
+                    "level": "Beginner",
+                    "locales": {
+                        "en": {
+                            "title": "c++",
+                            "info": null
+                        }
+                    }
+                },
+             
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": "Beginner",
+                    "level": "Beginner",
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Frontend"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": "intermediate",
+                    "level": "intermediate",
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": "intermediate",
+                    "level": "intermediate",
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": "intermediate",
+                    "level": "intermediate",
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": "intermediate",
+                    "level": "intermediate",
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                    },
+                    "value": "intermediate",
+                    "level": "intermediate",
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                },
+                 {
+                    "icon": {
+                        "img": "images/pictures/flask.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "", "fill": ""}
+                    },
+                    "value": "Beginner",
+                    "level": "Beginner",
+                    "locales": {
+                        "en": {
+                            "title": "Flask",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" },
+                "es": { "title": "Idiomas" },
+                "fr": { "title": "Langues" },
+                "ko": { "title": "언어" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                        
+                            "title": "English",
+                            "info": "Fluent in both spoken and written English; confident in professional communication.",
+                            "tags": ["Fluent"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/flags/india.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Telugu",
+                            "info": "Native speaker with excellent communication and writing skills.",
+                            "tags": ["Native"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/flags/india.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "info": "Fluent in both spoken and written Hindi; confident in professional communication.",
+                            "tags": ["Fluent"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

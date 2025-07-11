@@ -1,0 +1,125 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-desktop",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "info": "Major Projects"
+                        }
+                    }
+                },
+                
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "30",
+                            "info": "GitHub contributions this year "
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-bookmark",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "info": "Wattpad stories"
+                        }
+                    }
+                }
+
+            ]
+        },
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Quick **Facts**" }
+            },
+
+            "items": [
+            
+                {
+                    "dates": {
+                        "start": "07/12/2025",
+                        "end": null
+                    },
+                    "links": [
+                        
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Learning **SQL**",
+                            "text": "Currently learning SQL to strengthen my database management and querying skills."
+                        }
+                    }
+                },
+
+                
+
+                {
+                    "dates": {
+                        "start": "07/12/2025",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_more", "href": "https://github.com/sandhya-rani-pulkanti/react-portfolio" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched my **personal website** !",
+                            "text": "Created a personal website to showcase my projects and share my journey in programming."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "07/12/2025",
+                        "end": null
+                    },
+                    "links": [
+                       
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": " Wattpad **stories**",
+                            "text": "Currently writing 3 stories on Wattpad."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

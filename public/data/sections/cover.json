@@ -1,0 +1,268 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Sandhya Rani!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Hyderabad",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "sandhyaranipulkanti@gmail.com",
+                    "links": [
+                        {"href": "mailto:sandhyaranipulkanti@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@sandhya-rani-pulkanti",
+                    "links": [
+                        {"href": "https://github.com/sandhya-rani-pulkanti"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I’m a passionate Web Developer and a final-year Computer Science student with hands-on experience in building responsive and user-friendly interfaces using <b>HTML, CSS, JavaScript, and React</b>. I also have a solid foundation in programming with <b>Python</b>.</p><p>This combination of frontend skills and core programming knowledge allows me to bring both creativity and logic to the projects I work on.</p><p>I’m excited to learn, grow, and collaborate <b>with you!</b></p>"
+                              }
+                          }
+                }
+            ]
+        },
+
+        {
+            "id": "strengths",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "What I **bring to the table**"}
+               
+            },
+
+            "items": [
+                {
+                    "value": "Problem Solving",
+                   
+                    "icon": {
+                        "img": "images/pictures/problem-solving.jpg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Strong <b>Problem Solving Skills</b>",
+                            "text": "I’m currently building my knowledge in Data Structures and Algorithms, focusing on strengthening problem-solving skills. I actively apply what I learn through hands-on coding exercises and mini projects."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Frontend",
+                    
+                    "icon": {
+                        "img": "images/pictures/front-end_developer-2-512.webp",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Creative <b>Frontend Developer</b>",
+                            "text": "Proficient in HTML, CSS, JavaScript, and React, I create responsive and engaging user interfaces. I enjoy turning ideas into clean, interactive web experiences."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Quick Learner",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/fast-learner-260nw-693027463.webp",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "fast <b>Tech Adapter</b>",
+                            "text": "I pick up new tools and technologies quickly and enjoy staying updated with the latest trends. My curiosity drives me to constantly improve and experiment with new concepts"
+                        }
+                    }
+                },
+
+                {
+                    "value": "Team Player",
+                
+                    "icon": {
+                        "img": "images/pictures/team-player.jpg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Collaborative & Clear Communicator",
+                            "text": "I work well in teams and believe in the power of feedback and open communication. I make sure my code is readable, well-documented, and easy to collaborate on"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-desktop",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UI Design",
+                            "info": "I enjoy creating visually pleasing and user-friendly web interfaces"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-wand-magic-sparkles",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Prompt Spellcaster",
+                            "info": "Crafting words that unlock AI’s full potential—like casting spells with logic and creativity."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI Enthusiast",
+                            "info": "Actively explore AI tools to enhance creativity and productivity in daily tasks."
+                            
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Fiction Reader",
+                            "info": "Avid reader of fictional novels, especially Chinese web fiction and fantasy tales."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pen",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Wattpad Writer",
+                            "info": "Crafting original stories and fanfics that explore imagination and emotion."
+                        }
+                    }
+                },
+
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-tv",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Multilingual Series & Anime Lover",
+                            "info": "Love watching Korean, Chinese, Thai dramas, and anime to unwind and learn new perspectives."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
